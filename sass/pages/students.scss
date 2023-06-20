@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.kard-box{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  .kard{
+    img{
+      width: 100%;
+    }
+    .bts{
+      display: flex;
+      align-items: center;
+      .editBtn{
+        margin-right: 20px;
+        background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      }
+      .deleteBtn{
+         background-color: red;
+        margin-right: 20px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      }
+      .seeBtn{
+        background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      }
+    }
+  }
+}
+.pagg{
+  padding-top: 20px;
+}
